@@ -118,7 +118,13 @@ export default function Home() {
           className="mt-20 md:mt-32 flex flex-col items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer"
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
         >
-          <span className="text-sm font-medium tracking-wide uppercase">See what we’ve built</span>
+          <motion.span 
+            animate={{ opacity: [1, 0.3, 1] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+            className="text-sm font-medium tracking-wide"
+          >
+            see what we’ve built
+          </motion.span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
