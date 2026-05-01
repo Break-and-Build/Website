@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, ChevronDown } from "lucide-react";
+import { ArrowUpRight, ChevronDown, ArrowDown } from "lucide-react";
 import Link from "next/link";
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react';
 
@@ -112,6 +112,28 @@ export default function Home() {
             Join Now
           </button>
         </motion.div>
+
+        <motion.button 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="mt-20 md:mt-32 flex flex-col items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer"
+          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+        >
+          <span className="text-sm font-medium tracking-wide uppercase">See what we’ve built</span>
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            className="w-8 h-12 border-2 border-current rounded-full flex justify-center p-1"
+          >
+            <motion.div 
+              animate={{ y: [0, 16, 0], opacity: [1, 0, 1] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <ArrowDown size={14} strokeWidth={3} />
+            </motion.div>
+          </motion.div>
+        </motion.button>
       </section>
 
       {/* Footer / Logos section */}
