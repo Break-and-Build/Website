@@ -59,7 +59,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full max-w-7xl px-6 py-6 flex items-center justify-between z-10">
         <Link href="/" className="flex items-center">
-          <Image src="/logo.png" alt="Break & Build Logo" width={180} height={40} className="h-10 w-auto object-contain" priority />
+          <Image src="/logo.png" alt="Break & Build Logo" width={280} height={64} className="h-16 w-auto object-contain" priority />
         </Link>
         
         <div className="hidden md:flex items-center gap-1 text-sm text-gray-300 hover:text-white cursor-pointer transition-colors">
@@ -80,7 +80,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="text-6xl md:text-8xl font-semibold tracking-tight text-white mb-6 leading-[1.1]"
+          className="font-heading text-6xl md:text-8xl font-normal tracking-tight text-white mb-6 leading-[1.1]"
         >
           Break things. <br />
           <span className="text-gray-300">Build better ones.</span>
