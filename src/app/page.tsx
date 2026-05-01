@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, ChevronDown, ArrowDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react';
 
 export default function Home() {
@@ -57,12 +58,9 @@ export default function Home() {
       
       {/* Navbar */}
       <nav className="w-full max-w-7xl px-6 py-6 flex items-center justify-between z-10">
-        <div className="flex items-center gap-2">
-          <div className="text-orange-500">
-            <ArrowUpRight strokeWidth={3} size={24} />
-          </div>
-          <span className="text-xl font-medium tracking-tight">Break & Build</span>
-        </div>
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="Break & Build Logo" width={180} height={40} className="h-10 w-auto object-contain" priority />
+        </Link>
         
         <div className="hidden md:flex items-center gap-1 text-sm text-gray-300 hover:text-white cursor-pointer transition-colors">
           <span>Community</span>
