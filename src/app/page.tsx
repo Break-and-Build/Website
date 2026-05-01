@@ -12,6 +12,7 @@ export default function Home() {
       {/* Background Shader */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-80 mix-blend-screen">
         <ShaderGradientCanvas>
+          {/* @ts-ignore - ShaderGradient tool provides props that are missing from type definitions */}
           <ShaderGradient
             animate="on"
             axesHelper="off"
