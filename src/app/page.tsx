@@ -84,8 +84,8 @@ export default function Home() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-6xl md:text-8xl font-semibold tracking-tight text-white mb-6 leading-[1.1]"
         >
-          Build small, <br />
-          <span className="text-gray-300">solve real problems.</span>
+          Break things. <br />
+          <span className="text-gray-300">Build better ones.</span>
         </motion.h1>
         
         <motion.p 
