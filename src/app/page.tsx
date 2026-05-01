@@ -119,7 +119,7 @@ export default function Home() {
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
         >
           <motion.span 
-            animate={{ opacity: [1, 0.3, 1] }}
+            animate={{ color: ["#6b7280", "#ffffff", "#6b7280"] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
             className="text-sm font-medium tracking-wide"
           >
