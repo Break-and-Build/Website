@@ -80,7 +80,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="font-heading text-6xl md:text-8xl font-normal tracking-tight text-white mb-6 leading-[1.1]"
+          className="font-heading text-6xl md:text-8xl font-[800] tracking-tight text-white mb-6 leading-[1.1]"
         >
           Break things. <br />
           <span className="text-gray-300">Build better ones.</span>
