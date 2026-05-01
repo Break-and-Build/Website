@@ -92,7 +92,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-          className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl font-light leading-relaxed"
+          className="text-lg md:text-xl text-white mb-10 max-w-2xl font-light leading-relaxed"
         >
           We’re a community of builders who believe great products are iterated. Start small, ship fast, improve always.
         </motion.p>
