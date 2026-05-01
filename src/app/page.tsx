@@ -108,7 +108,7 @@ export default function Home() {
             placeholder="Enter your email" 
             className="w-full bg-[#1A1A1A] border border-gray-800 text-white pl-4 pr-36 py-4 rounded-xl focus:outline-none focus:border-gray-600 transition-colors"
           />
-          <button className="absolute right-1.5 top-1.5 bottom-1.5 bg-[#FF4500] hover:bg-[#FF5722] text-white px-6 rounded-lg font-medium text-sm transition-colors shadow-[0_0_15px_rgba(255,69,0,0.3)]">
+          <button className="absolute right-1.5 top-1.5 bottom-1.5 bg-[#A1DDFB] hover:brightness-95 text-black px-6 rounded-lg font-bold text-sm transition-all shadow-[0_0_15px_rgba(161,221,251,0.4)]">
             Join Now
           </button>
         </motion.div>
