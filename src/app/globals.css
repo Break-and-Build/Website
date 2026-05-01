@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-gradient-blur {
+  position: absolute;
+  filter: blur(140px);
+  z-index: -1;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.blur-orange {
+  background: radial-gradient(circle, rgba(249,115,22,0.8) 0%, rgba(249,115,22,0) 70%);
+}
+
+.blur-blue {
+  background: radial-gradient(circle, rgba(56,189,248,0.7) 0%, rgba(56,189,248,0) 70%);
+}

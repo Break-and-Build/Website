@@ -1,0 +1,190 @@
+ 
+Introduction
+----------------Page (0) Break----------------
+Who can join? 
+ 
+specific, defined problem for a specific group. 
+community initiatives, or detailed documentation and processes. The core goal is to solve a 
+specialized software tools (Plugins, internal tools, microservices) to physical prototypes, 
+We focus on efficient problem-solving, regardless of scale. Products can range from small, 
+ 
+What kind of products are we building? 
+ 
+ 
+ 
+  Total            14        
+8  Product Manager            1           Low  
+7  Mobile App Developer         2           Low  
+6  AI Engineer              1           Low  
+5  Plugin Developer            2           High  
+4  No-Code Developer [Framer / Webflow]  2           Medium   
+3  Backend Developer           2           Medium   
+2  Frontend Developer          2           High  
+1  UI/UX Designer            2           High  
+  Role            Count      Priority 
+ 
+Team Structure 
+ 
+ 
+4. Small-Scale Web App- https://www.mortgagecalculator.org/ 
+3. Web Solutions - https://www.ilovepdf.com/  
+2. Extensions- https://gofullpage.com/  
+1. Plugins- https://divriots.com/  
+Types of Products 
+ 
+to build a billion products to solve a billion different user problems. 
+various people simply. Our aspiration is not to build one product for a billion users, but rather 
+platform where problem-solvers come together to build products that meet the needs of 
+companies, such as fintech or medtech. Instead, Break and Build serves as a collaborative 
+refining or "breaking" them as needed. We are not focused on creating large-scale software 
+centers on developing small solutions, or "products," to address specific problems, and 
+Break and Build is a community dedicated to both creation and iteration. This concept 
+Introduction 
+ 
+----------------Page (1) Break----------------
+ 
+you’re pulling your end, then the time commitment is essentially up to you. 
+Depends on you. We understand that everyone has their personal commitments, as long as 
+ 
+How much time do we need to commit? 
+ 
+in-house projects we’d like to do. 
+Everyone can bring ideas, but essentially we seek out problems we can easily solve, or fun 
+ 
+How do we get product Ideas? 
+ 
+Our goal for 2026 is to build 6 products. 
+ 
+How many products are we targeting? 
+ 
+focus on small, easy-to-build solutions. 
+The timeline is set at 2 Months, from the initial idea to launch. This constraint is why we 
+ 
+What is the product build timeline? 
+ 
+building. 
+(IP) ownership. All members maintain full ownership of the products they are involved in 
+Yes. The fundamental principle is that the product's creator(s) retain full Intellectual Property 
+ 
+Do I own the products I help create? 
+ 
+or, if the cost is minimal, I can cover the expenses. 
+Resources are sourced either through internal contributions from the Break and Build team 
+ 
+How do we get resources for products? 
+ 
+basis or through internal accelerators, which may involve a structured agreement. 
+specialized mentorship for specific product builds may be available on a project-by-project 
+Joining the Break and Build community is currently free. Resources like funding, tools, or 
+ 
+What is the cost to join? 
+ 
+and business thinkers—essentially, anyone who identifies as a "builder" or a "breaker." 
+includes developers, designers, product managers, technical writers, researchers, hobbyists, 
+We welcome anyone passionate about problem-solving, creation, testing, or refinement. This 
+ 
+----------------Page (2) Break----------------
+Project Ideas 
+----------------Page (3) Break----------------
+spends 
+What it does: Creates a monthly budget plan for you based on your expenses and priority 
+Type: Small web tool 
+Budget Maker 
+Core promise: Secret fun messages for you and your friends 
+one 
+What it does: Send anonymous messages to people without having them know you’re the 
+Type: Small web tool 
+Anonymous Message Sender 
+Current Draft: https://explainshot.figma.site/  
+Core promise: Understand what you’re looking at. 
+What it does: Upload a screenshot → get a simple explanation of what’s going on. 
+Type: Small web tool 
+ExplainShot 
+Current Draft: 
+Core promise: Paste without the mess. 
+What it does: Cleans messy copied text instantly — plain text, smart bullets, or markdown. 
+Type: Browser plugin 
+PasteClean 
+Current Draft: 
+Core promise: Do one thing for 25 minutes. Then stop. 
+What it does: One 25-minute deep-work session at a time. Name the task, focus, stop. 
+Type: Browser plugin 
+OneBlock 
+ 
+Project Ideas 
+----------------Page (4) Break----------------
+Current Draft: 
+Core promise: Simplified statements that anyone can understand 
+expenses are 
+What it does: Upload your bank statements and get a simplified breakdown of what your 
+Type: Small web tool 
+Breakdown Statements 
+●  Allow for multiple savings 
+●  Allow for the use of decimal values, 1.50, not just full amounts 
+Feedback so far:  
+Current Draft: https://budgetplanner.figma.site/  
+Core promise: Helps you track your expenses better 
+----------------Page (5) Break----------------
+Budget Planner UI upgrades 
+----------------Page (6) Break----------------
+ 
+----------------Page (7) Break----------------
+Website Content 
+----------------Page (8) Break----------------
+At Break and Build, products are intentionally small and focused. 
+What We Build 
+ 
+But each one deserves a thoughtful solution. 
+Some are niche. 
+Some are personal. 
+Some problems are small. 
+Our goal is to build a billion products that solve a billion different problems. 
+We think differently. 
+Most people dream of building one product for a billion users. 
+Our Philosophy 
+ 
+people. 
+This approach allows us to move quickly, learn constantly, and build things that actually help 
+It’s part of the process. 
+Iteration is not failure. 
+necessary, and improve it. 
+Once something is built, we don’t treat it as finished. We refine it, test it, break it when 
+We build small solutions products designed to solve specific problems for specific people. 
+Break and Build is a community dedicated to both creation and iteration. 
+What Break & Build Is 
+ 
+Our philosophy is simple: build, test, break, and rebuild. 
+can come from simple tools built thoughtfully and improved over time. 
+real-world problems. We believe innovation doesn’t only come from massive startups — it 
+Break and Build is a community of builders focused on creating small products that solve 
+Break & Build — Website Content Draft
+ 
+----------------Page (9) Break----------------
+ 
+ 
+The goal is to build something useful. 
+The goal isn’t to build something perfect. 
+This cycle keeps things moving and prevents perfection from blocking progress. 
+Find a problem → Build a solution → Test it → Break it → Improve it 
+Every project follows a simple loop: 
+Our Process 
+ 
+We believe building should be collaborative, practical, and experimental. 
+●  learn through iteration 
+●  test solutions 
+●  build small tools 
+●  share ideas 
+Designers, developers, thinkers, and curious creators come together to: 
+Break and Build is a place for builders and problem-solvers. 
+The Community 
+ 
+Instead, we focus on solving real problems in simple ways. 
+platforms. 
+We are not focused on building large-scale startup companies like fintech or medtech 
+●  Experiments that test ideas quickly 
+●  Lightweight apps 
+●  Micro utilities 
+●  Simple productivity tools 
+●  Browser extensions 
+They might be: 
+----------------Page (10) Break----------------
