@@ -6,14 +6,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react';
 
+const ShaderGradientAny = ShaderGradient as any;
+
 export default function Home() {
   return (
     <main className="relative min-h-screen flex flex-col items-center overflow-hidden">
       {/* Background Shader */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-80 mix-blend-screen">
         <ShaderGradientCanvas>
-          {/* @ts-ignore - ShaderGradient tool provides props that are missing from type definitions */}
-          <ShaderGradient
+          <ShaderGradientAny
             animate="on"
             axesHelper="off"
             brightness={1}
