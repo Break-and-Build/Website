@@ -5,6 +5,9 @@ import { ArrowUpRight, ChevronDown, ArrowDown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react';
+import StickyScrollSection from "@/components/StickyScrollSection";
+import ProjectShowcase from "@/components/ProjectShowcase";
+import TeamSection from "@/components/TeamSection";
 
 const ShaderGradientAny = ShaderGradient as any;
 
@@ -59,7 +62,7 @@ export default function Home() {
       </div>
       
       {/* Navbar */}
-      <nav className="w-full max-w-7xl px-6 py-6 flex items-center justify-between z-10">
+      <nav className="w-full max-w-[1440px] px-6 lg:px-12 py-6 flex items-center justify-between z-10">
         <Link href="/" className="flex items-center">
           <Image src="/logo.png" alt="Break & Build Logo" width={280} height={64} className="h-16 w-auto object-contain" priority />
         </Link>
@@ -77,12 +80,13 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="flex-1 w-full max-w-4xl px-6 flex flex-col items-center justify-center text-center z-10 mt-20 mb-32">
+      <section className="flex-1 w-full flex flex-col items-center justify-center text-center z-10 mt-12 pb-[100px]">
+        <div className="w-full max-w-4xl px-6 flex flex-col items-center">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="font-heading text-6xl md:text-8xl font-[800] tracking-tight text-white mb-6 leading-[1.1]"
+          className="font-heading text-6xl md:text-8xl font-[800] tracking-tight text-white mb-2 leading-[1.1]"
         >
           Break things. <br />
           <span className="text-gray-300">Build better ones.</span>
@@ -92,62 +96,31 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-          className="text-lg md:text-xl text-white mb-10 max-w-2xl font-light leading-relaxed"
+          className="text-lg md:text-xl text-white mb-4 max-w-2xl font-light leading-relaxed"
         >
           We’re a community of builders who believe great products are iterated. Start small, ship fast, improve always.
         </motion.p>
+        </div>
 
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-          className="flex w-full max-w-md mx-auto relative"
-        >
-          <input 
-            type="email" 
-            placeholder="Enter your email" 
-            className="w-full bg-[#1A1A1A] border border-gray-800 text-white pl-4 pr-36 py-4 rounded-xl focus:outline-none focus:border-gray-600 transition-colors"
-          />
-          <button className="absolute right-1.5 top-1.5 bottom-1.5 bg-[#A1DDFB] hover:brightness-95 text-black px-6 rounded-lg font-bold text-sm transition-all shadow-[0_0_15px_rgba(161,221,251,0.4)]">
-            Join Now
-          </button>
-        </motion.div>
 
-        <motion.button 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          className="mt-20 md:mt-32 flex flex-col items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer"
-          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-        >
-          <motion.span 
-            animate={{ color: ["#6b7280", "#ffffff", "#6b7280"] }}
-            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-            className="text-sm font-medium tracking-wide"
-          >
-            see what we’ve built
-          </motion.span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            className="w-8 h-12 border-2 border-current rounded-full flex justify-center p-1"
-          >
-            <motion.div 
-              animate={{ y: [0, 16, 0], opacity: [1, 0, 1] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <ArrowDown size={14} strokeWidth={3} />
-            </motion.div>
-          </motion.div>
-        </motion.button>
+        {/* Project Showcase moved inside Hero */}
+        <div className="w-full mt-6">
+          <ProjectShowcase />
+        </div>
+
+
       </section>
+      
+      <StickyScrollSection />
+
+      <TeamSection />
 
       {/* Footer / Logos section */}
       <motion.section 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="w-full max-w-5xl px-6 pb-12 z-10"
+        className="w-full max-w-[1440px] px-6 lg:px-12 pb-12 z-10"
       >
         <p className="text-center text-sm text-gray-500 mb-8 font-medium uppercase tracking-widest">What We Build</p>
         <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 opacity-70">
